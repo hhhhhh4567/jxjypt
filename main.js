@@ -111,7 +111,5 @@ function getTx(str) {
         return 2;
     }
     if (str.indexOf('填空题') != -1 || str.indexOf('论述题') != -1 || str.indexOf('简答题') != -1 || str.indexOf('简答') != -1 || str.indexOf('应用题') != -1) {
-    //     return 3;
-    // }
     return 3;
 }
