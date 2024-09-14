@@ -111,7 +111,7 @@ function getTx(str) {
         return 2;
     }
     // 简答题等（由于这种题型太多，就全部默认返回3了）
-    // if (str.indexOf('填空题') != -1 || str.indexOf('论述题') != -1 || str.indexOf('综合题') != -1 || str.indexOf('计算题') != -1 || str.indexOf('应用题') != -1) {
+    // if (str.indexOf('填空题') != -1 || str.indexOf('简答题') != -1 || str.indexOf('综合题') != -1 || str.indexOf('计算题') != -1 || str.indexOf('应用题') != -1) {
     //     return 3;
     // }
     return 3;
