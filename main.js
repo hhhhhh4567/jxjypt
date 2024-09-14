@@ -90,7 +90,7 @@ function getAnswer(tx, answer) {
         }
     }
     if (tx == 3) {
-        const regex = /参考答案：(.*?)\n答案解析：/s;
+        const regex = /释疑：(.*?)\n解析：/s;
         const res = answer.match(regex);
         console.log(res);
         if (res && res.length == 2) {
